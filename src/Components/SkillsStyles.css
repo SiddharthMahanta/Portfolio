@@ -1,0 +1,20 @@
+.skillcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: auto;
+    padding-top: 65px;
+}
+.skillimage{
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    /* padding-top: 60px; */
+
+}
+.skilltitle{
+    font-weight: 700;
+    font-size: 60px;
+}

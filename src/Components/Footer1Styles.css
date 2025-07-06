@@ -1,0 +1,30 @@
+.body-container{
+    background-color: #201f1f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
+.desc{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+.email a{
+  color: white; 
+  text-decoration: none; 
+}
+.linkbutton{
+    gap: 50px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
