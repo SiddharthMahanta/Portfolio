@@ -5,12 +5,14 @@ import  "./SkillsStyles.css";
 export default function Skills() {
   return (
     <>
+    <section id="skills">
     <div>
     <div className="skillcontainer">
         <h1 className="skilltitle">Skills</h1>
         <img src={img2} alt="skill" className="skillimage"/>
     </div>
     </div>
+     </section>
     </>
   )
 }

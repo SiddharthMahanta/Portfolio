@@ -4,6 +4,7 @@ import  "./ProjectStyles.css";
 export default function Projects() {
   return (
     <>
+    <section id="projects">
     <div className="project-container">
     <h1 className="projecttitle">Featured Projects</h1>
     <div className="projectcards">
@@ -18,7 +19,7 @@ export default function Projects() {
     <button className="buttongrey">Express</button>
     </div>
     <button type="button" class="btn btn-outline-primary mx-2">Code</button>
-    <a href="#" class="btn btn-primary">Demo</a>
+    <a href="/" class="btn btn-primary">Demo</a>
   </div>
 </div>
 <div className="card w-50">
@@ -31,7 +32,7 @@ export default function Projects() {
     <button className="buttongrey">Redux</button>
     </div>
     <button type="button" class="btn btn-outline-primary mx-2">Code</button>
-    <a href="#" class="btn btn-primary">Demo</a>
+    <a href="/" class="btn btn-primary">Demo</a>
   </div>
 </div>
 <div className="card w-50">
@@ -45,11 +46,12 @@ export default function Projects() {
     <button className="buttongrey">PostgreSQL</button>
     </div>
     <button type="button" class="btn btn-outline-primary mx-2">Code</button>
-    <a href="#" class="btn btn-primary">Demo</a>
+    <a href="/" class="btn btn-primary">Demo</a>
   </div>
 </div>
     </div>
     </div>
+    </section>
     </>
   )
 }

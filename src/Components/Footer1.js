@@ -4,6 +4,7 @@ import  "./Footer1Styles.css";
 export default function Footer1() {
   return (
     <>
+    <section id="contact">
     <div className="body-container">
         <div className="desc">
             <h1 className="title-footer">Get In Touch</h1>
@@ -12,7 +13,7 @@ export default function Footer1() {
         <div className="info">
             <div className="email">
                 <h2>Email</h2>
-                <a href="https://support.google.com/mail/answer/56256?hl=en" target="_blank">siddharthmahanta853@gmail.com</a>
+                <a href="mailto:siddharthmahanta853@gmail.com" target="_blank">siddharthmahanta853@gmail.com</a>
             </div>
             <div className="phone">
                 <h2>Phone</h2>
@@ -29,6 +30,7 @@ export default function Footer1() {
             <a href="https://x.com/x" target="_blank"><button type="button" class="btn btn-outline-light mx-3">Twitter</button></a>
         </div>
     </div>
+    </section>
     </>
   )
 }

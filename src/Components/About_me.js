@@ -4,6 +4,7 @@ import React from 'react'
 export default function About_me() {
   return (
     <>
+    <section id="aboutus">
     <div className="cardcontainer">
     <div className="about">
       <b><h1 className="abouttitle">ABOUT ME</h1></b>
@@ -42,6 +43,7 @@ I enjoy building things, breaking them (ethically), and understanding the rulesâ
 
     </div>
    </div>
+   </section>
     </>
   )
 }
